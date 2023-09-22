@@ -1,0 +1,181 @@
+@charset "UTF-8";
+.selectBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.el-button.apply, .el-button.btnguide {
+    border: 0;
+    border-radius: 0.8rem;
+    background-color: #b70f28;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: -.05rem;
+    position: relative;
+    height: 60px;
+    float: right;
+    width: 15%;
+}
+.el-button {
+    display: inline-block;
+    white-space: nowrap;
+    cursor: pointer;
+    background: #fff;
+    border: 1px solid #b0b2bd;
+    -webkit-appearance: none;
+    box-sizing: border-box;
+    outline: 0;
+    margin: 0;
+    transition: .1s;
+    font-weight: 400;
+    font-size: 1.4rem;
+    border-radius: 0.8rem;
+    line-height: 1.38;
+    letter-spacing: -.5px;
+    text-align: center;
+    color: #54555a;
+}
+.sign_line .sign_input .selecbox1 {
+    display: block;
+    height: 60px;
+    border: 1px solid #d8d8d8;
+    border-radius: 5px;
+    box-sizing: border-box;
+    overflow: hidden;
+    position: relative;
+    float: left;
+    width: 10%;
+    margin-right: 20pt;
+}
+.sign_line .sign_input .selecbox2 {
+    display: block;
+    height: 60px;
+    border: 1px solid #d8d8d8;
+    border-radius: 5px;
+    box-sizing: border-box;
+    overflow: hidden;
+    position: relative;
+    float: left;
+    width: 20%;
+    margin-right: 20pt;
+}
+.sign_line .sign_input .selecbox3 {
+    display: block;
+    height: 60px;
+    border: 1px solid #d8d8d8;
+    border-radius: 5px;
+    box-sizing: border-box;
+    overflow: hidden;
+    position: relative;
+    float: left;
+    width: 20%;
+    margin-right: 20pt;
+}
+.sign_line .sign_input .selecbox4 {
+    display: block;
+    height: 60px;
+    border: 1px solid #d8d8d8;
+    border-radius: 5px;
+    box-sizing: border-box;
+    overflow: hidden;
+    position: relative;
+    float: left;
+    width: 20%;
+    margin-right: 20pt;
+}
+input, select {
+    height: 100%;
+    padding: 0 10px;
+    background: #fff;
+    font-size: 15px;
+    font-family: 'noto-R';
+    color: #1a1a1a;
+    border: none;
+    box-sizing: border-box;
+    width: 100%;
+}
+.sign_line .sign_input .selecbox {
+    display: block;
+    width: 50%;
+    height: 40px;
+    border: 1px solid #d8d8d8;
+    border-radius: 5px;
+    box-sizing: border-box;
+    overflow: hidden;
+    position: relative;
+}
+.sign_wrap input, .sign_wrap select {
+    position: relative;
+}
+.rtabBox {
+    margin-top: 3.3rem;
+    padding: 30pt 90pt 30pt 90pt;
+    border-radius: 0.8rem;
+    box-shadow: 0 2rem 3.2rem -0.8rem rgba(22,23,29,.1), 0 0 0.1rem 0 rgba(22,23,29,.2);
+    background-color: #fff;
+    position: inherit;
+    float: left;
+    width: 1230px;
+}
+.box {
+    background-color: #f6f8fa;
+    border: 1px solid #D9D9D9;
+    padding: 30px;
+    height: 400px;
+    width: 1300px;
+    overflow: auto;
+    margin: auto;
+    margin-top: 50px;
+}
+.box h1{
+	text-align : center;
+	font-weight: bold ;
+}
+.search {
+    position: static;
+    padding: 10pt 10% 10pt 10%;
+    width: 1200px;
+    float: left;
+}
+.searchR{
+	width:10%;
+	float:right;
+}
+.searchL{
+	width:90%;
+	float:left;
+}
+.searchBox {
+    border: 1px solid #d8dee8;
+    border-radius: 0.8rem;
+    font-family: "Spoqa Han Sans Neo";
+    /* font-weight: 400; */
+    letter-spacing: -.4px;
+    color: #16171d;
+    height: 50px;
+    line-height: 40px;
+    outline: 0;
+    padding: 0 20px;
+    transition: border-color .2s cubic-bezier(.645,.045,.355,1);
+    width:100%;
+    position:relative;
+    font-size: 15px;
+}
+input, button, select, optgroup, textarea {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+.searchBtn {
+    flex: none;
+    position: relative;
+    width: 4.6rem;
+    height: 4.6rem;
+    margin: 0;
+    padding: 0;
+    font-size: 0;
+    background: url(https://www.kcar.com/images/common/icon-header-search.svg) no-repeat 50% 50%;
+    background-size: 2.4rem 2.4rem;
+}

@@ -1,0 +1,8 @@
+
+SELECT * FROM OKAY_CAR_REGISTER o, CAR_IMG ci WHERE o.MODEL = ci.MODEL;
+
+
+
+
+
+
